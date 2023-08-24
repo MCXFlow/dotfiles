@@ -1,0 +1,14 @@
+#User config
+Diagnostics:
+  UnusedIncludes: Strict
+  ClangTidy:
+    Add:
+    [
+        performance-*,
+        bugprone-*,
+        modernize-*,
+        clang-analyzer-*,
+        readability-identifier*
+    ]
+    CheckOptions:
+      readability-identifier-naming.VariableCase: camelCase
