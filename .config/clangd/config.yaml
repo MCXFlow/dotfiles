@@ -10,5 +10,7 @@ Diagnostics:
         clang-analyzer-*,
         readability-identifier*
     ]
+    Remove:
+      modernize-use-trailing-return-type
     CheckOptions:
       readability-identifier-naming.VariableCase: camelCase

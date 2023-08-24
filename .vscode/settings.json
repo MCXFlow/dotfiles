@@ -21,7 +21,6 @@
         "-j=12",
         "--query-driver=/usr/bin/clang++",
         "--clang-tidy",
-        "--clang-tidy-checks=performance-*,bugprone-*,modernize-*,clang-analyzer-*,readability-identifier*",
         "--all-scopes-completion",
         "--header-insertion=never",
         "--completion-style=detailed",
